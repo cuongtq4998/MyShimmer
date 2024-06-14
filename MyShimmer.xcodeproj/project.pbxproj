@@ -14,6 +14,8 @@
 		4437BDF72C1AA68000E1CB58 /* MyShimmer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4437BDF52C1AA68000E1CB58 /* MyShimmer.xcdatamodeld */; };
 		4437BDF92C1AA68200E1CB58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4437BDF82C1AA68200E1CB58 /* Assets.xcassets */; };
 		4437BDFC2C1AA68200E1CB58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4437BDFA2C1AA68200E1CB58 /* LaunchScreen.storyboard */; };
+		44E690112C1AFAD900A63C53 /* ShimmerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E690102C1AFAD900A63C53 /* ShimmerFactory.swift */; };
+		44E690142C1AFB0300A63C53 /* ShimmerAnim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E690132C1AFB0300A63C53 /* ShimmerAnim.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		4437BDF82C1AA68200E1CB58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4437BDFB2C1AA68200E1CB58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4437BDFD2C1AA68200E1CB58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44E690102C1AFAD900A63C53 /* ShimmerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerFactory.swift; sourceTree = "<group>"; };
+		44E690132C1AFB0300A63C53 /* ShimmerAnim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerAnim.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 		4437BDEB2C1AA68000E1CB58 /* MyShimmer */ = {
 			isa = PBXGroup;
 			children = (
+				44E690122C1AFAEF00A63C53 /* Class */,
+				44E6900F2C1AFAC600A63C53 /* Factory */,
 				4437BDEC2C1AA68000E1CB58 /* AppDelegate.swift */,
 				4437BDEE2C1AA68000E1CB58 /* SceneDelegate.swift */,
 				4437BDF02C1AA68000E1CB58 /* ViewController.swift */,
@@ -68,6 +74,22 @@
 				4437BDF52C1AA68000E1CB58 /* MyShimmer.xcdatamodeld */,
 			);
 			path = MyShimmer;
+			sourceTree = "<group>";
+		};
+		44E6900F2C1AFAC600A63C53 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				44E690102C1AFAD900A63C53 /* ShimmerFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		44E690122C1AFAEF00A63C53 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				44E690132C1AFB0300A63C53 /* ShimmerAnim.swift */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +165,10 @@
 			files = (
 				4437BDF12C1AA68000E1CB58 /* ViewController.swift in Sources */,
 				4437BDF72C1AA68000E1CB58 /* MyShimmer.xcdatamodeld in Sources */,
+				44E690142C1AFB0300A63C53 /* ShimmerAnim.swift in Sources */,
 				4437BDED2C1AA68000E1CB58 /* AppDelegate.swift in Sources */,
 				4437BDEF2C1AA68000E1CB58 /* SceneDelegate.swift in Sources */,
+				44E690112C1AFAD900A63C53 /* ShimmerFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
